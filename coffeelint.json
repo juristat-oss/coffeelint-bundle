@@ -1,4 +1,18 @@
 {
+	"advanced_colon_assignment_spacing": {
+		"module": "coffeelint-advanced-colon-assignment-spacing",
+		"level": "warn",
+		"spacing": {
+			"left": {
+				"min": 0,
+				"max": 0
+			},
+			"right": {
+				"min": 1,
+				"max": null
+			}
+		}
+	},
 	"arrow_spacing": {
 		"level": "ignore"
 	},
@@ -14,7 +28,7 @@
 		"level": "error"
 	},
 	"colon_assignment_spacing": {
-		"level": "warn",
+		"level": "ignore",
 		"spacing": {
 			"left": 0,
 			"right": 1
@@ -36,9 +50,18 @@
 	"eol_last": {
 		"level": "warn"
 	},
+	"function_call_whitespace": {
+		"module": "coffeelint-function-call-whitespace",
+		"level": "warn"
+	},
 	"indentation": {
 		"value": 1,
 		"level": "error"
+	},
+	"limit_newlines": {
+		"module": "coffeelint-limit-newlines",
+		"level": "warn",
+		"value": 5
 	},
 	"line_endings": {
 		"level": "warn",
@@ -59,11 +82,16 @@
 	"no_backticks": {
 		"level": "error"
 	},
+	"no_class_fat_arrows": {
+		"module": "coffeelint-no-class-fat-arrows",
+		"level": "error"
+	},
 	"no_code_after_return": {
 		"module": "coffeelint-no-code-after-return"
 	},
 	"no_debugger": {
-		"level": "warn"
+		"level": "warn",
+		"console": true
 	},
 	"no_empty_functions": {
 		"level": "warn"
@@ -78,9 +106,6 @@
 	"no_implicit_parens": {
 		"strict": true,
 		"level": "ignore"
-	},
-	"no_implicit_returns": {
-		"module": "coffeelint-no-implicit-returns"
 	},
 	"no_interpolation_in_single_quotes": {
 		"level": "warn"
@@ -107,13 +132,14 @@
 		"level": "error"
 	},
 	"no_trailing_commas": {
-		"module": "coffeelint-no-trailing-commas"
+		"module": "coffeelint-no-trailing-commas",
+		"level": "warn"
 	},
 	"no_trailing_semicolons": {
-		"level": "error"
+		"level": "warn"
 	},
 	"no_trailing_whitespace": {
-		"level": "error",
+		"level": "warn",
 		"allowed_in_comments": false,
 		"allowed_in_empty_lines": false
 	},
