@@ -119,6 +119,9 @@
 	"no_private_function_fat_arrows": {
 		"level": "error"
 	},
+	"no_shadow_requires": {
+		"module": "coffeelint-no-shadow-requires"
+	},
 	"no_stand_alone_at": {
 		"level": "error"
 	},
