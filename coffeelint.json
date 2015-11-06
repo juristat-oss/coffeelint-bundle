@@ -13,6 +13,10 @@
 			}
 		}
 	},
+	"advanced_missing_fat_arrows": {
+		"module": "coffeelint-advanced-missing-fat-arrows",
+		"level": "warn"
+	},
 	"arrow_spacing": {
 		"level": "ignore"
 	},
@@ -73,7 +77,7 @@
 		"limitComments": true
 	},
 	"missing_fat_arrows": {
-		"level": "warn"
+		"level": "ignore"
 	},
 	"newlines_after_classes": {
 		"value": 3,
