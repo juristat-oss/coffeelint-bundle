@@ -12,7 +12,6 @@
     "coffeelint-no-code-after-return": "0.0.3",
     "coffeelint-no-shadow-requires": "^1.0.0",
     "coffeelint-no-trailing-commas": "^1.0.2",
-    "coffeelint-prefer-fewer-parens": "^0.1.0",
     "coffeelint-variable-scope": "juristat-oss/coffeelint-variable-scope#0.0.3-juristat1"
   },
   "bin": "./run-coffeelint.sh",
