@@ -163,10 +163,6 @@
 		"level": "warn",
 		"doubleNotLevel": "warn"
 	},
-	"prefer_fewer_parens": {
-		"module": "coffeelint-prefer-fewer-parens",
-		"level": "warn"
-	},
 	"space_operators": {
 		"level": "warn"
 	},
