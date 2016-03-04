@@ -94,7 +94,7 @@
 		"module": "coffeelint-no-code-after-return"
 	},
 	"no_debugger": {
-		"level": "warn",
+		"level": "error",
 		"console": true
 	},
 	"no_empty_functions": {
